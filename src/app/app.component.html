@@ -1,0 +1,11 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  
+  <app-counter></app-counter>
+
+  <app-counter-one [counter]="counter" (counterChange)="displaycounter($event)"> </app-counter-one>
+
+  <app-counter-two componentCounterValue="counter" (counterChange)="countChange($event)">
+  </app-counter-two>
+  
+</div>    
